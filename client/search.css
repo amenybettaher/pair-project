@@ -5,10 +5,13 @@
     margin-top: 1%;
 }
 
-/* body{
-    background: url("");
+body{
+    background-color: rgb(211, 236, 253);
+}
 
-} */
+#search {
+    background-color: #2d80fc;
+}
 /* Your animation */
 @keyframes wave {
     0% {
