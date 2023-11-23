@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="help.css">
+    <title>Forms</title>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="form-container">
+        <h2>Worker</h2>
+        <form id="workerForm" onsubmit="return validateForm('workerForm')">
+
+            <label for="Name"> Name:</label>
+            <input type="Name" id="Name" name="Name" required>
+
+            <label for="lastName">lastName:</label>
+            <input type="lastName" id="lastName" name="lastName" required>
+            
+            <label for="workerEmail">Email:</label>
+            <input type="email" id="workerEmail" name="workerEmail" required>
+
+            <label for="Message">Message:</label>
+            <input type="message" id="Message" name="Message" required>
+
+
+            <button type="submit">Find Job</button>
+        </form>
+    </div>
+
+    
+    <script src="help.js"></script>
+</body>
+</html>
+
