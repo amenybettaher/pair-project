@@ -14,6 +14,6 @@ function verifyPassword() {
         alert("Login successful!");
 
         // Redirect to help page
-        window.location.href = "http://127.0.0.1:5500/contact/help/help.html";
+        window.location.href = "http://127.0.0.1:5500/help/help.html";
     }
 }
